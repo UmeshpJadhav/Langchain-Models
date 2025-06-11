@@ -1,7 +1,11 @@
+
 from langchain_google_genai import ChatGoogleGenerativeAI
+import os
+
 from dotenv import load_dotenv
+
 load_dotenv()
 
-model = ChatGoogleGenerativeAI(model='gemini-1.5-pro')
-result = model.invoke("What is the capital of India?")
-print(result.content)  # Expected output: "The capital of India is New Delhi."
+model = ChatGoogleGenerativeAI(model='gemini-2.0-flash')
+result = model.invoke('What is the capital of India')
+print(result.content)
