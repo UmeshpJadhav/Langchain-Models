@@ -7,4 +7,4 @@ model = ChatAnthropic(model = "claude-2")
 
 result =  model.invoke("What is the capital of India?")
 
-print(result.content)  # Expected output: "The capital of India is New Delhi."
+print(result.content) 

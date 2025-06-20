@@ -4,10 +4,10 @@ import streamlit as st
 
 load_dotenv()
 
-# Initialize the model (make sure to set your API key in the .env file as GOOGLE_API_KEY)
+
 model = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
-st.header("Research Tool")
+st.header("BlogQuestAI")
 
 user_input = st.text_input("Enter your prompt")
 
