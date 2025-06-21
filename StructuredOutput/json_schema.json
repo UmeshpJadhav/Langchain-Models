@@ -1,0 +1,11 @@
+{
+    "title": "Student",
+    "description": "A student object containing personal information and academic details.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "integer"
+        }
+    }
+}
