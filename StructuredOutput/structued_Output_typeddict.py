@@ -1,10 +1,9 @@
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from typing import TypedDict, Annotated, Optional, Literal
 
 load_dotenv()
-
-model = ChatOpenAI()
+model = ChatGoogleGenerativeAI(model='gemini-2.0-flash')
 
 # schema
 class Review(TypedDict):
