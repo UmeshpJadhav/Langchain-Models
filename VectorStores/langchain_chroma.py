@@ -27,6 +27,6 @@ docs = [doc1]
 # Save the FAISS index
 # vector_store.save_local("./faiss_langchain_db")
 
-vector_store.add_documents(docs)
+# vector_store.add_documents(docs)
 
-vector_store.get(include=['embeddings','documents', 'metadatas'])
+# vector_store.get(include=['embeddings','documents', 'metadatas'])
